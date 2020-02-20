@@ -1,0 +1,16 @@
+{
+  "name": "postman-ci-demo",
+  "version": "1.0.0",
+  "description": "Poject to store Postman Collection",
+  "scripts": {
+    "api-test": "newman run PMPOC.postman_collection.json -e ThinkHR-QA-V2.postman_environment.json"
+  },
+  "keywords": [
+    "Postman",
+    "CI"
+  ],
+  "author": "Pepcus",
+  "dependencies": {
+    "newman": "^4.5.7"
+  }
+}
