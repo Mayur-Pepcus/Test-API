@@ -1,6 +1,6 @@
 node {
     stage('Connect to Git Repository') {
-        git 'https://github.com/getraviprakash/postman-CI-demo.git'
+        git 'https://github.com/Mayur-Pepcus/Test-API.git'
       }
       stage('Install NPM') {
             bat 'npm install'
