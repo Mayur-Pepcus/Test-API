@@ -9,7 +9,7 @@
     "Postman",
     "CI"
   ],
-  "author": "Pepcus",
+  "author": "QA-author",
   "dependencies": {
     "newman": "^4.5.7"
   }
